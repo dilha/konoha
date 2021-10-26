@@ -1,0 +1,359 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+.img__art {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    height: 125px;
+}
+
+
+
+#hero {
+    /*    background-image: url(https://wallpaperscave.ru/images/original/18/03-03/anime-boruto-24413.jpg);*/
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(2, 2, 2, 0.8)), url(https://wallpaperscave.ru/images/original/18/03-03/anime-boruto-24413.jpg) fixed top center;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+#hero .conteiner {
+    position: relative;
+    padding-top: 75px;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Popins";
+}
+
+#hero h2 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+#hero .icon-box h3 {
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#hero .icon-box h3 a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+#hero .icon-box h3 a:hover {
+    color: #ffc457;
+}
+
+.icon-box {
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+    transition: all .2s linear;
+}
+
+.icon-box:hover {
+    border: 1px solid #ffc457;
+}
+
+#about ul {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.cta {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(2, 2, 2, 0.8)), url(../images/naruto_saske-bg.jpg) fixed center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    color: #fff;
+}
+
+.cta h3 {
+    font-weight: bold;
+    font-style: 28px;
+}
+
+.cta-btn {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 10px;
+    transition: all .2s linear;
+}
+
+.cta-btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.team {
+    padding-bottom: 60px;
+}
+
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.team .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+
+.team .member .social a {
+    transition: color 0.3s;
+    color: #151515;
+    margin: 0 3px;
+    padding-top: 7px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+}
+
+.team .member .social a:hover {
+    background-color: #ffc451;
+}
+
+.team .member .member-info {
+    padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.team .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.team .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+
+
+.img-fluid {
+    object-fit: cover;
+    object-position: center bottom;
+    height: 500px;
+    min-width: 360px;
+}
+
+.carousel-title {
+    font-size: 34px;
+    color: #000;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.carousel-indicators {
+    bottom: -80px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+
+.slide-img {
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section-title {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.services {
+    margin-bottom: 60px;
+}
+
+.services .icon-box {
+    border: 1px solid #afafaf;
+    padding: 80px 20px;
+    transition: all .3s linear;
+}
+
+.services .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .icon-box h4 {
+    font-weight: 700;
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+.services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(152, 0, 2, 0.5);
+}
+
+.contact .info .info-icon {
+    background-color: #ffc451;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    float: left;
+}
+
+.contact .info h4 {
+    padding-left: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.contact .info p {
+    padding-left: 60px;
+    font-size: 14px;
+
+}
+
+.footer-top {
+    background-color: #151515;
+    color: #fff;
+    border-bottom: 1px solid #22222222;
+    padding: 60px 0 30px 0;
+}
+
+.footer-top h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.footer-info {
+    margin-bottom: 30px;
+}
+
+.footer-info h3 {
+    font-size: 28px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.footer-top .social-links a {
+    width: 36px;
+    height: 36px;
+    color: #ffc451;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.footer-top .social-links a:hover {
+    color: deeppink;
+}
+
+.footer-links {
+    margin-bottom: 30px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-links a {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #ffc451;
+}
+
+.footer-newsletter form {
+    margin-top: 30px;
+}
+
+@media(max-width: 1200px) {
+    .img__art {
+        height: 200px;
+    }
+}
+
+@media(max-width: 760px) {
+    .img__art {
+        height: 300px;
+    }
+}
